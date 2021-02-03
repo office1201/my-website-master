@@ -1,0 +1,73 @@
+/* Variable(global) */
+:root {
+    /* Color */
+    --color-black: #111111;
+    --color-dark-grey: #444444;
+    --color-grey: #777777;
+    --color-white-grey: #cccccc;
+    --color-purple: #9055A2;
+    --color-dark-white: #f4f4f4;
+    --color-white-incarnadine: #FDF8F1;
+
+    /* Font Size */
+    --font-large: 18px;
+    --font-medium: 16px;
+    --font-regular: 14px;
+    --font-small: 13px;
+
+    /* Font Weight */
+
+    /* Animation */
+    --animation-duration: 300ms;
+}
+/* Universal tags */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-dark-white);
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+/* Typography */
+h1 {
+    font-size: var(--font-large);
+    /* 할 일: font-weight🔥 */
+    color: var(--color-black);
+}
+
+h2 {
+    font-size: var(--font-medium);
+    color: var(--color-dark-grey);
+}
+
+h3 {
+    font-size: var(--font-regular);
+    color: var(--color-dark-grey);
+}
+
+h4 {
+    font-size: var(--font-small);
+    color: var(--color-grey);
+}
+
+p {
+    font-size: var(--font-small);
+    color: var(--color-grey);
+}
