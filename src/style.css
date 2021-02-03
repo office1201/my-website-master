@@ -71,3 +71,74 @@ p {
     font-size: var(--font-small);
     color: var(--color-grey);
 }
+/* Sidebar */
+#sidebar {
+    padding: 40px;
+}
+
+.sidebar__title {
+    margin: 0px 0px 20px;
+}
+
+.sidebar__intro {
+    margin: 0px 0px 20px;
+}
+
+.sidebar__intro > p:first-child {
+    margin: 0px 0px 10px;
+}
+
+.sidebar__intro > p:last-child {
+    margin: 0;
+}
+
+.sidebar__menu__item {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.sidebar__menu__item > h2 {
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+.sidebar__menu__item > h2:hover {
+    color: var(--color-purple);
+    /* 할 일: 좀 더 chic한 effact🔥 */
+    /* add in horozantal line 필요.🔥 */
+}
+
+.sidebar__socials {
+    display: flex;  
+    margin-bottom: 20px;
+}
+
+.social {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-white-grey);
+    border-radius: 50%;
+}
+
+.social:hover {
+    color: var(--color-purple);
+}
+
+.contact__title {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 0px 20px 0px;
+}
+
+.contact__list {
+    margin: 0;
+}
+
+.contact__list__item > h4, p {
+    margin: 0 0px 10px 0px;
+}
