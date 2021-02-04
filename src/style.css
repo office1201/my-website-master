@@ -94,6 +94,7 @@ p {
 
 .sidebar__menu__item {
     display: flex;
+    align-items: center;
     margin-bottom: 8px;
 }
 
